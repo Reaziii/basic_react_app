@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +31,175 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-mm{
+  border: 1px solid black;
+  background-color:#555;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 70%;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+
+}
+.card-mm:hover{
+  transform: scale(1.05);
+  box-shadow: inset 0px 3px 16px 0px #1a1a1a;
+}
+.close-button{
+  background: #555;
+  color: white;
+  border: 5px solid #ffffff;
+  border-radius: 30px;
+  height: 50px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+  width: 50px;
+  /* box-shadow: 0px 0px 4px 0px lime; */
+  font : 1000 33px/35px sans-serif;
+  top: 53px;
+  /* position: absolute; */
+}
+
+.close-button:hover{
+  background-color : #E54E4E;
+}
+.close-button:active{
+  margin-top: 1px;
+  background-color : #c21212;
+
+}
+
+.heyyou{
+  text-align:right;
+  width: 100%;
+  float: right;
+  height: 50px;
+}
+.card-imgs{
+  height: 120px;
+  width: 120px;
+  border: 3px solid white;
+  box-shadow: inset 0px 0px 22px 0px rgb(0 0 1);
+  border-radius: 50%;
+  background: yellow;
+}
+
+.card-name{
+  font: 700 15px/10px Varela Round;
+}
+
+.card-email{
+  color: white;
+  font : 900 15px/20px Varela Round;
+}
+.top-side
+{
+  margin-bottom: 20px;
+}
+
+nav{
+  background-color: #2b2b2b;
+  height: 80px;
+  margin-top: 0px;
+  position: fixed;
+  width : 100%;
+  z-index: 10
+}
+nav ul{
+  list-style: none;
+  margin: 0px;
+
+}
+nav ul li{
+  text-decoration: none;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 45px;
+  font: 900 20px varela round;
+  line-height: 80px;
+
+
+}
+nav ul li a{
+  color: white;
+  transition: 0.2s;
+}
+nav ul li a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+.mybtn:active{
+  top: -1%;
+}
+
+.container{
+  max-width: 100%;
+  margin:0px;
+  padding : 0px;
+  
+}
+.row{
+  width: 100%;
+  margin:0px;
+  padding : 0px;
+
+}
+
+.add-card-item input,.add-card-item button{
+  width:100%;
+  margin-top: 10px;
+  border: 0.2px solid gray;
+  outline: none;
+  border-radius: 5px;
+  height: 40px;
+}
+.add-card-item button{
+  background-color: white;
+  font-size: 20px;
+  border: 1px solid #198754;
+  font-weight: 900;
+  color : #198754;
+  transition: 0.2s;
+}
+
+.add-card-item button:hover{
+  background-color: #198754;
+  color : white;
+  
+}
+.add-card-item button:active{
+  top:-10px;
+}
+
+.add-item-text{
+  text-align: center;
+  background-color: #198754;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Varela Round';
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+.searchbox{
+  border: 1px solid rgb(230, 107, 85);
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: inset 0px 1px 5px 0px #565252;
+  height: 40px;
+  place-content: "sadl;kfj";
+}
+.scroll{
+  overflow-y: scroll;
+  height: 440px;
 }
